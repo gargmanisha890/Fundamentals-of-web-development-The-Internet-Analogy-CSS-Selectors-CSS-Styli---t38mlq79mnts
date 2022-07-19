@@ -33,7 +33,7 @@ section{
     margin: 20px auto;
     padding-left: auto;
     padding-right: auto;
-    grid-template-columns: 300px 700px;
+    grid-template-columns: 300px 1000px;
     
 }
 .right_section h2{
