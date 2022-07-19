@@ -14,13 +14,13 @@ section{
     display: block;
 }
 .left_section{
-    grid-column: 300px;
+    grid-column: span 1;
     /* background: linear-gradient(top right,blue,rgb(255, 55, 222),blue); */
     background-image: linear-gradient(to right,blue,rgb(255, 55, 222),blue);
     padding: 1rem;
 }
 .right_section{
-    grid-column: 300px/ 700px;
+    grid-column: span 1 / span 2;
     background-color: white;
     padding: 1px;
     margin-right: 5px;
@@ -99,8 +99,8 @@ section{
     padding: 0.5rem;
     text-transform: uppercase;
 }
-@media screen and (max-width:674px) {
+@media screen and (max-width:673px){
     .main-content{
-            grid-template-columns: repeat(1,1fr);
-        }
+        grid-template-columns: repeat(1,1fr);
     }
+}
